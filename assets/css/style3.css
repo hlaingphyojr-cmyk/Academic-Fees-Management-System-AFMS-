@@ -1,0 +1,36 @@
+body {
+    background-color:#067;
+    width: 100%;
+    height: calc(100%);
+    top:0;
+	left: 20px;
+    right: 20px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper{
+    background-color: #fff;
+    width: 370px;
+    height: 470px;
+    margin: 80px auto;
+    padding-top: 25px;
+    border-radius: 15px;
+
+  }
+
+  .p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #067;
+  }
+
+  .logo {
+    display: block;
+    margin:auto;
+    max-width: 300%;
+	width: 200px;
+    height: 140px;
+    object-position:top;
+  }

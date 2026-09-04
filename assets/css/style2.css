@@ -1,0 +1,104 @@
+body {
+    background-color:#f9fdf8e7;
+    width: 100%;
+    height: calc(100%);
+    top:0;
+	left: 20px;
+    right: 20px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  .topnav {
+    background-color: #bcbec2;
+    position: relative;
+    top: 30px;
+    right: 100px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .topnav a {
+    float: right;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a.active {
+    background-color: #babcb5;
+    color: rgb(47, 44, 44);
+    font-weight: bold;
+  }
+
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: none;
+    position: relative;
+    color: gold;
+    top: 38px;
+    left: 100px;
+}
+
+.title1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    color: rgba(11, 11, 10, 0.87);
+    top: 90px;
+    left:100px;
+    /* left: 500px; */
+    
+}
+
+.contact{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    color: rgba(11, 11, 10, 0.87);
+    top: 120px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.ph{
+    top: 400px;
+    left: 70px;
+    position: relative;
+}
+
+.ph1{
+    top: 120px;
+    left: 70px;
+    position: relative;
+}
+
+.ph2{
+    top: 150px;
+    left: 70px;
+    position: relative;
+}
+
+.about{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    color: rgba(11, 11, 10, 0.87);
+    top: 120px;
+    text-align: justify;
+    font-size: 23px;
+    width: 50%;
+    left: 390px;
+}

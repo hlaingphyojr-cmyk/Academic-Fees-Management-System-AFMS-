@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  text-decoration: none;
+}
+hr {
+  color: #034;
+}
+
+.navbar {
+  padding: 1.2rem 1.4rem;
+}
+
+.navbar__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hyper_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.hyper-link:hover {
+  color: #036497;
+}
+.active
+{
+   color:#034;
+}
+
+.hero {
+  min-height: 90vh;
+  margin-top: 3rem;
+  padding: 0.8rem 10rem;
+  .hero_title {
+    text-align: center;
+  }
+  .hero_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero_centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  .hero_description {
+    margin-top: 0.8rem;
+    padding: 0rem 3rem;
+    /* text-align: center; */
+    text-align: justify;
+  }
+}
+
+/* Features */
+.features {
+  min-height: 70vh;
+  padding: 0.8rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  h2 {
+    text-align: center;
+  }
+}
+.feature_card {
+  width: 50%;
+  padding: 2rem 4rem;
+  box-shadow: 12px 12px 13px -10px rgba(145, 142, 142, 0.76);
+  -webkit-box-shadow: 12px 12px 13px -10px rgba(145, 142, 142, 0.76);
+  -moz-box-shadow: 12px 12px 13px -10px rgba(145, 142, 142, 0.76);
+  .feature_title {
+    margin-bottom: 0.4rem;
+  }
+}
+
+.feature_card_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Contact Us */
+.contact_us_container {
+  min-height: 40vh;
+  padding: 0.8rem 10rem;
+  margin: 1rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+  .contact_us_description {
+    text-align: center;
+    padding: 0rem 1.4rem;
+  }
+}
+.contact_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: #034;
+  width: 100%;
+  min-height: 20vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 8rem; */
+    width: 70%;
+    height: 80px;
+  }
+  .footer-element {
+    padding: 1rem 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+  }
+}
+
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-3 {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+} */
+btn-2 {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
